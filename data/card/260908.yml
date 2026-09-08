@@ -5,7 +5,7 @@ about:
   head: 5187baa
   archived: false
   latestVersion: "20260616"
-  collectedAt: 2026-09-08T01:39:35Z
+  collectedAt: 2026-09-08T04:26:30Z
 timeline:
   created: 2015-12-21
   lastCommit: 2026-09-07
@@ -84,7 +84,7 @@ total:
   commit: 18766
 ---
 path: /home/runner/.x-repo/github.com/neomutt/neomutt
-collectedAt: 2026-09-08T01:40:08Z
+collectedAt: 2026-09-08T04:27:21Z
 loc:
   C:
     code: 197347
