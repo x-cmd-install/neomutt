@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1088,
       "digest": "sha256:8babf1ce5cccf2ecc55b91dc1869979cb5f7450bf47e619c21a9d3666a1064df",
-      "download_count": 682,
+      "download_count": 688,
       "created_at": "2026-06-16T11:57:44Z",
       "updated_at": "2026-06-16T11:57:44Z",
       "browser_download_url": "https://github.com/neomutt/neomutt/releases/download/20260616/20260616-CHECKSUM"

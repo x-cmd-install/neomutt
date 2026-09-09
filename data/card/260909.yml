@@ -7,7 +7,7 @@ about:
   latestVersion: "20260616"
   latestRelease: "20260616"
   latestPrerelease: "20200807"
-  collectedAt: 2026-09-09T04:34:28Z
+  collectedAt: 2026-09-09T18:32:28Z
 timeline:
   created: 2015-12-21
   lastCommit: 2026-09-07
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-06-16
   lastPrerelease: 2020-08-07
 popularity:
-  star: 3828
+  star: 3829
   watcher: 55
   fork: 347
   release: 100
   contributor: 364
   pullRequest: 2346
-  issue: 2390
+  issue: 2391
 language:
   C: 9623981
   Tcl: 154598
@@ -36,7 +36,7 @@ recent:
     release: 0
     mergedPR: 4
     openPR: 4
-    closedIssue: 4
+    closedIssue: 5
     openIssue: 4
     commit: 1
   last60d:
@@ -44,7 +44,7 @@ recent:
     release: 0
     mergedPR: 40
     openPR: 8
-    closedIssue: 14
+    closedIssue: 15
     openIssue: 26
     commit: 53
   last90d:
@@ -52,7 +52,7 @@ recent:
     release: 1
     mergedPR: 52
     openPR: 9
-    closedIssue: 21
+    closedIssue: 22
     openIssue: 30
     commit: 90
   last180d:
@@ -60,7 +60,7 @@ recent:
     release: 3
     mergedPR: 85
     openPR: 14
-    closedIssue: 38
+    closedIssue: 39
     openIssue: 35
     commit: 361
   last360d:
@@ -68,7 +68,7 @@ recent:
     release: 5
     mergedPR: 142
     openPR: 26
-    closedIssue: 60
+    closedIssue: 61
     openIssue: 59
     commit: 1143
   last720d:
@@ -76,19 +76,19 @@ recent:
     release: 13
     mergedPR: 247
     openPR: 29
-    closedIssue: 147
+    closedIssue: 148
     openIssue: 96
     commit: 1646
 total:
   release: 100
   mergedPR: 1921
   openPR: 33
-  closedIssue: 2129
+  closedIssue: 2130
   openIssue: 261
   commit: 18766
 ---
 path: /home/runner/.x-repo/github.com/neomutt/neomutt
-collectedAt: 2026-09-09T04:35:02Z
+collectedAt: 2026-09-09T18:33:03Z
 loc:
   C:
     code: 197347
