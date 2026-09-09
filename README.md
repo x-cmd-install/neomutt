@@ -7,7 +7,7 @@
 - **Latest release**: `20260616` (2026-06-16)
 - **Last commit**: 2026-09-07
 - **License**: GPL-2.0
-- **Stars**: 3828 · **Forks**: 347 · **Open issues**: 2390 · **Contributors**: 364
+- **Stars**: 3829 · **Forks**: 347 · **Open issues**: 2391 · **Contributors**: 364
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/neomutt> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:35:05Z._
+_Last regenerated: 2026-09-09T18:33:10Z._
