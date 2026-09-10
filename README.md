@@ -23,11 +23,18 @@ x install neomutt
 - **Latest**: `20260616` (2026-06-16)
 - **Last commit**: 2026-09-07
 - **Assets in release**: 3
-- **Published**: 2026-06-16T11:57:45Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [20260616-CHECKSUM](https://github.com/neomutt/neomutt/releases/download/20260616/20260616-CHECKSUM) | 1.1 KiB | `other` |
+| [20260616.tar.gz.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.tar.gz.sig) | 566 B | `other` |
+| [20260616.zip.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.zip.sig) | 566 B | `other` |
 
 ## Popularity
 
-- **Stars**: 3,829 · **Forks**: 347 · **Open issues**: 2,391 · **Contributors**: 364
+- **Stars**: 3,828 · **Forks**: 347 · **Open issues**: 2,391 · **Contributors**: 364
 
 ## Totals (cumulative)
 
@@ -68,8 +75,8 @@ Lowest-scoring checks:
 Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `neomutt` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/neomutt.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/neomutt.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:30:07Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:14:17Z._
