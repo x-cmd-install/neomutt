@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,829 · **Forks**: 347 · **Open issues**: 2,391 · **Contributors**: 364
+- **Stars**: 3,831 · **Forks**: 347 · **Open issues**: 2,391 · **Contributors**: 364
 
 ## Totals (cumulative)
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **142** distros on [repology.org](https://repology.org/project/neomutt). **38** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+Reported by **142** distros on [repology.org](https://repology.org/project/neomutt). **41** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,11 +85,11 @@ Reported by **142** distros on [repology.org](https://repology.org/project/neomu
 | Ubuntu 26.04 LTS | `20260105` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `20231103` | ⚠️ outdated |
 | Arch | `20260616` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `20260616` | ✅ latest |
 | Fedora rawhide | `20260616` | ✅ latest |
 | Nix unstable | `20260616` | ✅ latest |
 | Void | `20260616` | ✅ latest |
-| Alpine edge | `20260504` | ⚠️ outdated |
+| Alpine edge | `20260616` | ✅ latest |
 | openSUSE Tumbleweed | `20260406` | ⚠️ outdated |
 
 ## Improve this data
@@ -101,4 +101,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:30:21Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:49:41Z._

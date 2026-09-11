@@ -48,7 +48,7 @@ x install neomutt
 
 ## 流行度
 
-- **Star**: 3,829 · **Fork**: 347 · **开放 issue**: 2,391 · **贡献者**: 364
+- **Star**: 3,831 · **Fork**: 347 · **开放 issue**: 2,391 · **贡献者**: 364
 
 ## 累计统计
 
@@ -75,7 +75,7 @@ x install neomutt
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/neomutt) 上共有 **142** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**89** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/neomutt) 上共有 **142** 个发行版报告此项目。**41** 个 ✅ 已是最新上游版本，**86** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -85,11 +85,11 @@ x install neomutt
 | Ubuntu 26.04 LTS | `20260105` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `20231103` | ⚠️ outdated |
 | Arch | `20260616` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `20260616` | ✅ latest |
 | Fedora rawhide | `20260616` | ✅ latest |
 | Nix unstable | `20260616` | ✅ latest |
 | Void | `20260616` | ✅ latest |
-| Alpine edge | `20260504` | ⚠️ outdated |
+| Alpine edge | `20260616` | ✅ latest |
 | openSUSE Tumbleweed | `20260406` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -101,4 +101,4 @@ neomutt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T04:30:22Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:49:42Z._
