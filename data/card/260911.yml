@@ -7,7 +7,7 @@ about:
   latestVersion: "20260616"
   latestRelease: "20260616"
   latestPrerelease: "20200807"
-  collectedAt: 2026-09-11T04:29:39Z
+  collectedAt: 2026-09-11T20:48:58Z
 timeline:
   created: 2015-12-21
   lastCommit: 2026-09-07
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-06-16
   lastPrerelease: 2020-08-07
 popularity:
-  star: 3829
+  star: 3831
   watcher: 55
   fork: 347
   release: 100
@@ -88,7 +88,7 @@ total:
   commit: 18766
 ---
 path: /home/runner/.x-repo/github.com/neomutt/neomutt
-collectedAt: 2026-09-11T04:30:15Z
+collectedAt: 2026-09-11T20:49:36Z
 loc:
   C:
     code: 197347
