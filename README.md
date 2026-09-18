@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,834 · **Forks**: 348 · **Open issues**: 2,391 · **Contributors**: 365
+- **Stars**: 3,833 · **Forks**: 348 · **Open issues**: 2,391 · **Contributors**: 365
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 0 | 3 | 3 | 1 | 3 | 4 |
-| last60d | 2026-07-19 | 0 | 36 | 6 | 10 | 26 | 51 |
-| 90d | 2026-06-19 | 0 | 52 | 9 | 22 | 30 | 83 |
-| last180d | 2026-03-21 | 3 | 83 | 14 | 39 | 35 | 353 |
-| 360d | 2025-09-22 | 5 | 143 | 26 | 61 | 59 | 1139 |
-| last720d | 2024-09-27 | 13 | 248 | 29 | 147 | 94 | 1638 |
+| 30d | 2026-08-19 | 0 | 3 | 3 | 1 | 3 | 4 |
+| last60d | 2026-07-20 | 0 | 33 | 6 | 10 | 26 | 51 |
+| 90d | 2026-06-20 | 0 | 52 | 9 | 22 | 30 | 83 |
+| last180d | 2026-03-22 | 3 | 83 | 14 | 39 | 35 | 353 |
+| 360d | 2025-09-23 | 5 | 143 | 26 | 61 | 59 | 1139 |
+| last720d | 2024-09-28 | 13 | 248 | 29 | 147 | 92 | 1638 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T04:53:09Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T04:59:53Z._
