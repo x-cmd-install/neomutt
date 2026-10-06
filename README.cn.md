@@ -32,7 +32,7 @@ x install neomutt
 
 - **Code-Review** (4/10) — Found 11/26 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (2/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -52,18 +52,18 @@ x install neomutt
 
 ## 累计统计
 
-- **发布数**: 100 · **已合并 PR**: 1923 · **开放 PR**: 34 · **已关闭 issue**: 2130 · **开放 issue**: 263 · **提交数**: 18768
+- **发布数**: 100 · **已合并 PR**: 1923 · **开放 PR**: 36 · **已关闭 issue**: 2130 · **开放 issue**: 263 · **提交数**: 18768
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 3 | 2 | 1 | 2 | 3 |
-| last60d | 2026-08-06 | 0 | 13 | 6 | 7 | 13 | 8 |
-| 90d | 2026-07-07 | 0 | 44 | 10 | 16 | 30 | 60 |
-| last180d | 2026-04-08 | 2 | 79 | 15 | 37 | 37 | 321 |
-| 360d | 2025-10-10 | 5 | 141 | 27 | 60 | 57 | 1128 |
-| last720d | 2024-10-15 | 12 | 240 | 30 | 141 | 93 | 1612 |
+| 30d | 2026-09-06 | 0 | 3 | 4 | 1 | 2 | 3 |
+| last60d | 2026-08-07 | 0 | 12 | 8 | 7 | 13 | 8 |
+| 90d | 2026-07-08 | 0 | 44 | 12 | 16 | 30 | 60 |
+| last180d | 2026-04-09 | 2 | 79 | 17 | 37 | 37 | 321 |
+| 360d | 2025-10-11 | 5 | 141 | 29 | 60 | 57 | 1128 |
+| last720d | 2024-10-16 | 12 | 240 | 32 | 140 | 93 | 1608 |
 
 ## Release 资产
 
@@ -82,4 +82,4 @@ neomutt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T05:28:18Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T06:11:49Z._

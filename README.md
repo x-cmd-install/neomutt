@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (4/10) — Found 11/26 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (2/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 100 · **Merged PRs**: 1923 · **Open PRs**: 34 · **Closed issues**: 2130 · **Open issues**: 263 · **Commits**: 18768
+- **Releases**: 100 · **Merged PRs**: 1923 · **Open PRs**: 36 · **Closed issues**: 2130 · **Open issues**: 263 · **Commits**: 18768
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 3 | 2 | 1 | 2 | 3 |
-| last60d | 2026-08-06 | 0 | 13 | 6 | 7 | 13 | 8 |
-| 90d | 2026-07-07 | 0 | 44 | 10 | 16 | 30 | 60 |
-| last180d | 2026-04-08 | 2 | 79 | 15 | 37 | 37 | 321 |
-| 360d | 2025-10-10 | 5 | 141 | 27 | 60 | 57 | 1128 |
-| last720d | 2024-10-15 | 12 | 240 | 30 | 141 | 93 | 1612 |
+| 30d | 2026-09-06 | 0 | 3 | 4 | 1 | 2 | 3 |
+| last60d | 2026-08-07 | 0 | 12 | 8 | 7 | 13 | 8 |
+| 90d | 2026-07-08 | 0 | 44 | 12 | 16 | 30 | 60 |
+| last180d | 2026-04-09 | 2 | 79 | 17 | 37 | 37 | 321 |
+| 360d | 2025-10-11 | 5 | 141 | 29 | 60 | 57 | 1128 |
+| last720d | 2024-10-16 | 12 | 240 | 32 | 140 | 93 | 1608 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:28:17Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:11:49Z._
