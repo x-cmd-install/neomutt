@@ -14,11 +14,11 @@ x install neomutt
 
 ## Code insight
 
-Total: **216,090** lines of code across **1659** files in the top 5 languages.
+Total: **216,093** lines of code across **1659** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 197,353 | 71,630 | 36,114 | 1182 |
+| C | 197,356 | 71,630 | 36,114 | 1182 |
 | CHeader | 13,674 | 15,368 | 3,683 | 462 |
 | Sh | 2,033 | 450 | 202 | 5 |
 | ModuleDef | 1,065 | 0 | 120 | 1 |
@@ -26,13 +26,13 @@ Total: **216,090** lines of code across **1659** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.3 / 10**
+Overall score: **7.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 11/26 approved changesets -- score normalized to 4
+- **Code-Review** (3/10) — Found 10/26 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (2/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `20260616` (2026-06-16)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-10-12
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 3,850 · **Forks**: 348 · **Open issues**: 2,395 · **Contributors**: 364
+- **Stars**: 3,852 · **Forks**: 348 · **Open issues**: 2,395 · **Contributors**: 363
 
 ## Totals (cumulative)
 
-- **Releases**: 100 · **Merged PRs**: 1923 · **Open PRs**: 38 · **Closed issues**: 2130 · **Open issues**: 265 · **Commits**: 18768
+- **Releases**: 100 · **Merged PRs**: 1923 · **Open PRs**: 38 · **Closed issues**: 2131 · **Open issues**: 264 · **Commits**: 18769
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 2 | 6 | 0 | 4 | 0 |
-| last60d | 2026-08-13 | 0 | 3 | 9 | 1 | 8 | 4 |
-| 90d | 2026-07-14 | 0 | 41 | 13 | 15 | 30 | 51 |
-| last180d | 2026-04-15 | 2 | 77 | 18 | 34 | 37 | 267 |
-| 360d | 2025-10-17 | 5 | 141 | 31 | 60 | 59 | 1123 |
-| last720d | 2024-10-22 | 12 | 240 | 34 | 138 | 93 | 1608 |
+| 30d | 2026-09-13 | 0 | 2 | 6 | 1 | 3 | 1 |
+| last60d | 2026-08-14 | 0 | 3 | 9 | 2 | 7 | 5 |
+| 90d | 2026-07-15 | 0 | 41 | 12 | 16 | 29 | 52 |
+| last180d | 2026-04-16 | 2 | 77 | 18 | 34 | 36 | 268 |
+| 360d | 2025-10-18 | 5 | 141 | 31 | 60 | 58 | 1124 |
+| last720d | 2024-10-23 | 12 | 240 | 34 | 137 | 92 | 1609 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T05:48:11Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:44:01Z._
