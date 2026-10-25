@@ -1,92 +1,127 @@
-- repo: alpine_3_17
-  subrepo: community
+- repo: raspbian_testing
+  subrepo: main
   srcname: neomutt
-  binname: neomutt-lang
-  visiblename: neomutt-lang
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Languages for package neomutt
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-doc
-  visiblename: neomutt-doc
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-doc
-  visiblename: neomutt-doc
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-lang
-  visiblename: neomutt-lang
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Languages for package neomutt
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: neomutt
-  binname: neomutt
+  binnames:
+    - neomutt
   visiblename: neomutt
   version: "20260616"
-  origversion: 1:20260616-1
+  origversion: 20260616+dfsg-1
   status: newest
-  summary: A version of mutt with added features
+  maintainers:
+    - mutt@packages.debian.org
+    - antonio@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
+- repo: kiss_community
+  subrepo: community
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20260504"
+  origversion: null
+  status: outdated
+  maintainers:
+    - ben@bvnf.space
+- repo: mx_23_testing
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20240425"
+  origversion: 20240425+dfsg-2~mx23+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+    - antonio@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - mail
+- repo: slackbuilds
+  srcname: network/neomutt
+  visiblename: network/neomutt
+  version: "20260616"
+  origversion: null
+  status: newest
+  categories:
+    - network
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-lang
+  visiblename: neomutt-lang
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Languages for package neomutt
+  maintainers:
+    - caskd@redxen.eu
   licenses:
-    - GPL-2.0-only
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-doc
+  visiblename: neomutt-doc
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches (documentation)
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-doc
+  visiblename: neomutt-doc
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches (documentation)
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-lang
+  visiblename: neomutt-lang
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Languages for package neomutt
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_19
   subrepo: community
   srcname: neomutt
@@ -358,6 +393,20 @@
   summary: Languages for package neomutt
   maintainers:
     - me@runxiyu.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_05
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20231221"
+  origversion: null
+  status: outdated
+  summary: A small but very powerful text-based mail client
+  maintainers:
+    - erik.rybakken@math.ntnu.no
+    - rahul@gopinath.org
+    - maximilian@mbosch.me
+    - ryan@lahfa.xyz
   licenses:
     - GPL-2.0-or-later
 - repo: alt_p11
@@ -572,17 +621,6 @@
     - charlesmelara@riseup.net
   categories:
     - misc
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20260616"
-  origversion: 1:20260616-1
-  status: newest
-  summary: A version of mutt with added features
-  licenses:
-    - GPL-2.0-only
 - repo: debian_unstable
   subrepo: sid/main
   srcname: neomutt
@@ -718,17 +756,6 @@
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
   categories:
     - Unspecified
-- repo: stalix_dev
-  srcname: bin/neo/mutt
-  binname: bin/neo/mutt
-  visiblename: bin/neo/mutt
-  version: "20260616"
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: fedora_42
   subrepo: release
   srcname: neomutt
@@ -865,16 +892,6 @@
     - GPL-2
   categories:
     - mail-client
-- repo: starkos
-  subrepo: extra
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20260616"
-  origversion: 20260616-1
-  status: newest
-  summary: A version of mutt with added features
-  maintainers:
-    - starkos@disroot.org
 - repo: gentoo
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -951,15 +968,6 @@
     - charlesmelara@riseup.net
   categories:
     - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20260504"
-  origversion: null
-  status: outdated
-  maintainers:
-    - ben@bvnf.space
 - repo: liguros_stable
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -974,6 +982,18 @@
     - GPL-2
   categories:
     - mail-client
+- repo: nix_stable_24_11
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20241002"
+  origversion: null
+  status: outdated
+  summary: Small but very powerful text-based mail client
+  maintainers:
+    - erik.rybakken@math.ntnu.no
+    - ryan@lahfa.xyz
+  licenses:
+    - GPL-2.0-or-later
 - repo: liguros_stable
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -1002,19 +1022,6 @@
     - GPL-2
   categories:
     - mail-client
-- repo: nix_stable_25_05
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20250113"
-  origversion: null
-  status: outdated
-  summary: Small but very powerful text-based mail client
-  maintainers:
-    - erik.rybakken@math.ntnu.no
-    - ryan@lahfa.xyz
-    - ethan@ethancedwards.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: liguros_develop
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -1119,6 +1126,28 @@
   summary: A version of mutt with added features
   licenses:
     - GPL-2.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 1:20260616-1
+  status: newest
+  summary: A version of mutt with added features
+  licenses:
+    - GPL-2.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 1:20260616-1
+  status: newest
+  summary: A version of mutt with added features
+  licenses:
+    - GPL-2.0-only
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: neomutt
@@ -1144,57 +1173,19 @@
     - charlesmelara@riseup.net
   categories:
     - mail
-- repo: mx_23_testing
-  srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20240425"
-  origversion: 20240425+dfsg-2~mx23+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-    - antonio@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - mail
-- repo: nix_stable_24_05
+- repo: nix_stable_25_05
   srcname: neomutt
   visiblename: neomutt
-  version: "20231221"
-  origversion: null
-  status: outdated
-  summary: A small but very powerful text-based mail client
-  maintainers:
-    - erik.rybakken@math.ntnu.no
-    - rahul@gopinath.org
-    - maximilian@mbosch.me
-    - ryan@lahfa.xyz
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_11
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20241002"
+  version: "20250113"
   origversion: null
   status: outdated
   summary: Small but very powerful text-based mail client
   maintainers:
     - erik.rybakken@math.ntnu.no
     - ryan@lahfa.xyz
+    - ethan@ethancedwards.com
   licenses:
     - GPL-2.0-or-later
-- repo: stalix
-  srcname: bin/neo/mutt
-  binname: bin/neo/mutt
-  visiblename: bin/neo/mutt
-  version: "20260616"
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: nix_stable_25_11
   srcname: neomutt
   visiblename: neomutt
@@ -1407,7 +1398,7 @@
   licenses:
     - GPL-2.0-only
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: neomutt
   binnames:
     - neomutt
@@ -1422,7 +1413,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: neomutt
   binnames:
     - neomutt
@@ -1531,29 +1522,38 @@
     - charlesmelara@riseup.net
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20260616"
-  origversion: 20260616+dfsg-1
-  status: newest
-  maintainers:
-    - mutt@packages.debian.org
-    - antonio@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
-- repo: slackbuilds
-  srcname: network/neomutt
-  visiblename: network/neomutt
+- repo: stalix
+  srcname: bin/neo/mutt
+  binname: bin/neo/mutt
+  visiblename: bin/neo/mutt
   version: "20260616"
   origversion: null
   status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
   categories:
-    - network
+    - bin
+- repo: stalix_dev
+  srcname: bin/neo/mutt
+  binname: bin/neo/mutt
+  visiblename: bin/neo/mutt
+  version: "20260616"
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: extra
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 20260616-1
+  status: newest
+  summary: A version of mutt with added features
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: neomutt
   binname: neomutt
