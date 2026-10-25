@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 12 | 4 | 3 | 3 | 17 |
-| last60d | 2026-08-25 | 0 | 16 | 6 | 5 | 5 | 21 |
-| 90d | 2026-07-26 | 0 | 34 | 9 | 13 | 27 | 56 |
-| last180d | 2026-04-27 | 2 | 82 | 16 | 36 | 34 | 222 |
-| 360d | 2025-10-29 | 5 | 153 | 29 | 63 | 56 | 1130 |
-| last720d | 2024-11-03 | 12 | 250 | 32 | 137 | 91 | 1612 |
+| 30d | 2026-09-25 | 0 | 12 | 4 | 3 | 3 | 17 |
+| last60d | 2026-08-26 | 0 | 16 | 6 | 5 | 4 | 21 |
+| 90d | 2026-07-27 | 0 | 33 | 9 | 13 | 24 | 42 |
+| last180d | 2026-04-28 | 2 | 81 | 15 | 36 | 34 | 202 |
+| 360d | 2025-10-30 | 5 | 153 | 29 | 63 | 56 | 1112 |
+| last720d | 2024-11-04 | 12 | 249 | 32 | 136 | 91 | 1612 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:27:10Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:30:49Z._
