@@ -13,15 +13,6 @@
     - charlesmelara@riseup.net
   categories:
     - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20260504"
-  origversion: null
-  status: outdated
-  maintainers:
-    - ben@bvnf.space
 - repo: mx_23_testing
   srcname: neomutt
   binnames:
@@ -36,14 +27,6 @@
     - charlesmelara@riseup.net
   categories:
     - mail
-- repo: slackbuilds
-  srcname: network/neomutt
-  visiblename: network/neomutt
-  version: "20260616"
-  origversion: null
-  status: newest
-  categories:
-    - network
 - repo: alpine_3_17
   subrepo: community
   srcname: neomutt
@@ -757,20 +740,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20250113"
-  origversion: 6:20250113-2.fc42
-  status: legacy
-  summary: Text mode Mail Client
-  licenses:
-    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: neomutt
   binnames:
@@ -779,6 +748,20 @@
   version: "20260504"
   origversion: 6:20260504-1.fc42
   status: outdated
+  summary: Text mode Mail Client
+  licenses:
+    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20250113"
+  origversion: 6:20250113-2.fc42
+  status: legacy
   summary: Text mode Mail Client
   licenses:
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
@@ -968,6 +951,15 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: kiss_community
+  subrepo: community
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20260504"
+  origversion: null
+  status: outdated
+  maintainers:
+    - ben@bvnf.space
 - repo: liguros_stable
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -1398,7 +1390,7 @@
   licenses:
     - GPL-2.0-only
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: neomutt
   binnames:
     - neomutt
@@ -1413,7 +1405,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: neomutt
   binnames:
     - neomutt
@@ -1522,6 +1514,14 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: slackbuilds
+  srcname: network/neomutt
+  visiblename: network/neomutt
+  version: "20260616"
+  origversion: null
+  status: newest
+  categories:
+    - network
 - repo: stalix
   srcname: bin/neo/mutt
   binname: bin/neo/mutt
@@ -1675,6 +1675,21 @@
   summary: A version of mutt with added features
   maintainers:
     - wonkru-dev@proton.me
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20201127"
+  origversion: 20201127+dfsg.1-1.2
+  status: outdated
+  maintainers:
+    - mutt@packages.debian.org
+    - antonio@debian.org
+  categories:
+    - mail
+  vulnerable: true
 - repo: chimera
   subrepo: user
   srcname: neomutt
@@ -1795,21 +1810,6 @@
     - neomutt@packages.debian.org
     - antonio@debian.org
     - paravoid@debian.org
-  categories:
-    - mail
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20201127"
-  origversion: 20201127+dfsg.1-1.2
-  status: outdated
-  maintainers:
-    - mutt@packages.debian.org
-    - antonio@debian.org
   categories:
     - mail
   vulnerable: true
