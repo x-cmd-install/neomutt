@@ -14,11 +14,11 @@ x install neomutt
 
 ## Code insight
 
-Total: **216,501** lines of code across **1664** files in the top 5 languages.
+Total: **216,523** lines of code across **1664** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 197,757 | 71,785 | 36,189 | 1187 |
+| C | 197,779 | 71,787 | 36,191 | 1187 |
 | CHeader | 13,680 | 15,371 | 3,683 | 462 |
 | Sh | 2,033 | 450 | 202 | 5 |
 | ModuleDef | 1,066 | 0 | 120 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `20260616` (2026-06-16)
-- **Last commit**: 2026-10-26
+- **Last commit**: 2026-10-27
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 3,854 · **Forks**: 353 · **Open issues**: 2,399 · **Contributors**: 366
+- **Stars**: 3,857 · **Forks**: 353 · **Open issues**: 2,399 · **Contributors**: 367
 
 ## Totals (cumulative)
 
-- **Releases**: 100 · **Merged PRs**: 1937 · **Open PRs**: 36 · **Closed issues**: 2135 · **Open issues**: 264 · **Commits**: 18786
+- **Releases**: 100 · **Merged PRs**: 1938 · **Open PRs**: 35 · **Closed issues**: 2136 · **Open issues**: 263 · **Commits**: 18787
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 13 | 4 | 3 | 4 | 18 |
-| last60d | 2026-08-28 | 0 | 17 | 6 | 5 | 5 | 22 |
-| 90d | 2026-07-29 | 0 | 30 | 9 | 13 | 22 | 43 |
-| last180d | 2026-04-30 | 2 | 82 | 15 | 36 | 35 | 203 |
-| 360d | 2025-11-01 | 5 | 154 | 29 | 63 | 57 | 1113 |
-| last720d | 2024-11-06 | 12 | 249 | 32 | 136 | 92 | 1612 |
+| 30d | 2026-09-28 | 0 | 14 | 3 | 4 | 3 | 19 |
+| last60d | 2026-08-29 | 0 | 18 | 5 | 6 | 4 | 23 |
+| 90d | 2026-07-30 | 0 | 31 | 8 | 14 | 21 | 44 |
+| last180d | 2026-05-01 | 2 | 83 | 13 | 37 | 34 | 204 |
+| 360d | 2025-11-02 | 5 | 155 | 28 | 64 | 56 | 1114 |
+| last720d | 2024-11-07 | 12 | 250 | 31 | 137 | 91 | 1613 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T04:53:32Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:28:03Z._
