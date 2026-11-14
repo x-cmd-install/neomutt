@@ -1,147 +1,153 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: starkos
+  subrepo: extra
   srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20250510"
-  origversion: 20250510+dfsg-2
-  status: outdated
-  maintainers:
-    - mutt@packages.debian.org
-    - antonio@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
-- repo: pclinuxos
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20250510"
-  origversion: 20250510-1pclos2025
-  status: outdated
-  summary: A command line mail reader based on Mutt
-  categories:
-    - Networking/Mail
-- repo: alpine_3_17
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-lang
-  visiblename: neomutt-lang
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Languages for package neomutt
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-doc
-  visiblename: neomutt-doc
-  version: "20220429"
-  origversion: 20220429-r2
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-doc
-  visiblename: neomutt-doc
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-lang
-  visiblename: neomutt-lang
-  version: "20220429"
-  origversion: 20220429-r3
-  status: outdated
-  summary: Languages for package neomutt
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20231103"
-  origversion: 20231103-r0
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-doc
-  visiblename: neomutt-doc
-  version: "20231103"
-  origversion: 20231103-r0
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - caskd@redxen.eu
-  licenses:
-    - GPL-2.0-or-later
-- repo: altsisyphus
-  srcname: neomutt
-  binnames:
-    - neomutt
-    - neomutt-debuginfo
   visiblename: neomutt
   version: "20260616"
-  origversion: 20260616-alt1
+  origversion: 20260616-2
   status: newest
-  summary: A version of Mutt with added features
+  summary: A version of mutt with added features
   maintainers:
-    - kotopesutility@altlinux.org
+    - starkos@disroot.org
+- repo: crux_37
+  subrepo: contrib
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20250510"
+  origversion: null
+  status: outdated
+  summary: a fork of Mutt with added features
+  maintainers:
+    - tbier@posteo.de
+- repo: alpine_3_22
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20250510"
+  origversion: 20250510-r0
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - cielesti@protonmail.com
   licenses:
     - GPL-2.0-or-later
-  categories:
-    - Networking/Mail
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-doc
+  visiblename: neomutt-doc
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches (documentation)
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-lang
+  visiblename: neomutt-lang
+  version: "20220429"
+  origversion: 20220429-r2
+  status: outdated
+  summary: Languages for package neomutt
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-doc
+  visiblename: neomutt-doc
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches (documentation)
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-lang
+  visiblename: neomutt-lang
+  version: "20220429"
+  origversion: 20220429-r3
+  status: outdated
+  summary: Languages for package neomutt
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20231103"
+  origversion: 20231103-r0
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-lang
+  visiblename: neomutt-lang
+  version: "20250510"
+  origversion: 20250510-r0
+  status: outdated
+  summary: Languages for package neomutt
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: neomutt
+  binname: neomutt-doc
+  visiblename: neomutt-doc
+  version: "20231103"
+  origversion: 20231103-r0
+  status: outdated
+  summary: Mutt with miscellaneous fixes and feature patches (documentation)
+  maintainers:
+    - caskd@redxen.eu
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_19
   subrepo: community
   srcname: neomutt
@@ -236,38 +242,12 @@
 - repo: alpine_3_22
   subrepo: community
   srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20250510"
-  origversion: 20250510-r0
-  status: outdated
-  summary: Mutt with miscellaneous fixes and feature patches
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: neomutt
   binname: neomutt-doc
   visiblename: neomutt-doc
   version: "20250510"
   origversion: 20250510-r0
   status: outdated
   summary: Mutt with miscellaneous fixes and feature patches (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: neomutt
-  binname: neomutt-lang
-  visiblename: neomutt-lang
-  version: "20250510"
-  origversion: 20250510-r0
-  status: outdated
-  summary: Languages for package neomutt
   maintainers:
     - cielesti@protonmail.com
   licenses:
@@ -405,6 +385,22 @@
     - GPL-2.0-or-later
   categories:
     - Networking/Mail
+- repo: altsisyphus
+  srcname: neomutt
+  binnames:
+    - neomutt
+    - neomutt-debuginfo
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 20260616-alt1
+  status: newest
+  summary: A version of Mutt with added features
+  maintainers:
+    - kotopesutility@altlinux.org
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Networking/Mail
 - repo: aosc
   srcname: app-web/neomutt
   binname: neomutt
@@ -463,16 +459,6 @@
     - cem@carbslinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: crux_37
-  subrepo: contrib
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20250510"
-  origversion: null
-  status: outdated
-  summary: a fork of Mutt with added features
-  maintainers:
-    - tbier@posteo.de
 - repo: crux_38
   subrepo: contrib
   srcname: neomutt
@@ -525,17 +511,6 @@
     - antonio@debian.org
   categories:
     - misc
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: neomutt
-  binname: neomutt
-  visiblename: neomutt
-  version: "20260616"
-  origversion: 1:20260616-1
-  status: newest
-  summary: A version of mutt with added features
-  licenses:
-    - GPL-2.0-only
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: neomutt
@@ -574,7 +549,22 @@
   visiblename: neomutt
   version: "20260105"
   origversion: 20260105+dfsg-1~bpo13+1
-  status: outdated
+  status: legacy
+  maintainers:
+    - mutt@packages.debian.org
+    - antonio@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
+- repo: debian_13_backports
+  subrepo: trixie-backports/main
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 20260616+dfsg-1~bpo13+1
+  status: newest
   maintainers:
     - mutt@packages.debian.org
     - antonio@debian.org
@@ -671,22 +661,18 @@
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: neomutt
-  binnames:
-    - neomutt
-    - neomutt-debuginfo
-    - neomutt-debugsource
-  visiblename: neomutt
-  version: "20240201"
-  origversion: 6:20240201-1.fc40
-  status: legacy
-  summary: Text mode Mail Client
-  licenses:
-    - GPLv2+ and BSD and MIT and Public Domain
+- repo: freebsd
+  srcname: mail/neomutt
+  binname: neomutt
+  visiblename: mail/neomutt
+  version: "20260616"
+  origversion: "20260616_2"
+  status: newest
+  summary: Bringing together all the Mutt Code
+  maintainers:
+    - gahr@freebsd.org
   categories:
-    - Unspecified
+    - mail
 - repo: fedora_40
   subrepo: updates
   srcname: neomutt
@@ -703,32 +689,22 @@
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: neomutt
   binnames:
     - neomutt
+    - neomutt-debuginfo
+    - neomutt-debugsource
   visiblename: neomutt
-  version: "20250905"
-  origversion: 6:20250905-1.fc41
-  status: outdated
+  version: "20240201"
+  origversion: 6:20240201-1.fc40
+  status: legacy
   summary: Text mode Mail Client
   licenses:
-    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
+    - GPLv2+ and BSD and MIT and Public Domain
   categories:
     - Unspecified
-- repo: pkgsrc_2026_2
-  srcname: mail/neomutt
-  binname: neomutt
-  visiblename: mail/neomutt
-  version: "20260616"
-  origversion: null
-  status: newest
-  summary: Fork of mutt with integrated community patches
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - mail
 - repo: fedora_41
   subrepo: release
   srcname: neomutt
@@ -738,6 +714,32 @@
   version: "20241002"
   origversion: 6:20241002-1.fc41
   status: legacy
+  summary: Text mode Mail Client
+  licenses:
+    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
+  categories:
+    - Unspecified
+- repo: openbsd
+  srcname: mail/neomutt
+  binname: neomutt
+  visiblename: mail/neomutt
+  version: "20260616"
+  origversion: 20260616v0
+  status: newest
+  summary: tty-based e-mail client, forked from Mutt
+  maintainers:
+    - stu.ports@spacehopper.org
+  categories:
+    - mail
+- repo: fedora_41
+  subrepo: updates
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20250905"
+  origversion: 6:20250905-1.fc41
+  status: outdated
   summary: Text mode Mail Client
   licenses:
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
@@ -772,20 +774,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: neomutt
-  binnames:
-    - neomutt
-  visiblename: neomutt
-  version: "20250905"
-  origversion: 6:20250905-1.fc43
-  status: legacy
-  summary: Text mode Mail Client
-  licenses:
-    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: neomutt
   binnames:
@@ -794,6 +782,20 @@
   version: "20260616"
   origversion: 6:20260616-1.fc43
   status: newest
+  summary: Text mode Mail Client
+  licenses:
+    - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20250905"
+  origversion: 6:20250905-1.fc43
+  status: legacy
   summary: Text mode Mail Client
   licenses:
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
@@ -841,18 +843,6 @@
     - GPL-2.0-or-later AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Public-Domain
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: mail/neomutt
-  binname: neomutt
-  visiblename: mail/neomutt
-  version: "20260616"
-  origversion: "20260616_2"
-  status: newest
-  summary: Bringing together all the Mutt Code
-  maintainers:
-    - gahr@freebsd.org
-  categories:
-    - mail
 - repo: gentoo
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -866,23 +856,6 @@
     - GPL-2
   categories:
     - mail-client
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: neomutt
-  binnames:
-    - neomutt
-    - neomutt-doc
-    - neomutt-debuginfo
-    - neomutt-debugsource
-  visiblename: neomutt
-  version: "20241002"
-  origversion: 20241002-1.mga9
-  status: outdated
-  summary: A command line mail reader based on Mutt
-  licenses:
-    - GPLv2
-  categories:
-    - Networking/Mail
 - repo: gentoo
   srcname: mail-client/neomutt
   visiblename: mail-client/neomutt
@@ -998,6 +971,18 @@
     - GPL-2
   categories:
     - mail-client
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20230517"
+  origversion: 20230517-bp156.1.9
+  status: outdated
+  summary: A command line mail reader (or MUA), a fork of Mutt with added features
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Email/Clients
 - repo: macports
   srcname: mail/neomutt
   binname: neomutt
@@ -1025,6 +1010,23 @@
   version: "20230517"
   origversion: 20230517-1.mga9
   status: legacy
+  summary: A command line mail reader based on Mutt
+  licenses:
+    - GPLv2
+  categories:
+    - Networking/Mail
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: neomutt
+  binnames:
+    - neomutt
+    - neomutt-doc
+    - neomutt-debuginfo
+    - neomutt-debugsource
+  visiblename: neomutt
+  version: "20241002"
+  origversion: 20241002-1.mga9
+  status: outdated
   summary: A command line mail reader based on Mutt
   licenses:
     - GPLv2
@@ -1072,6 +1074,17 @@
   licenses:
     - GPL-2.0-only
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: neomutt
+  binname: neomutt
+  visiblename: neomutt
+  version: "20260616"
+  origversion: 1:20260616-1
+  status: newest
+  summary: A version of mutt with added features
+  licenses:
+    - GPL-2.0-only
+- repo: manjaro_unstable
   subrepo: extra
   srcname: neomutt
   binname: neomutt
@@ -1271,18 +1284,6 @@
     - stu.ports@spacehopper.org
   categories:
     - mail
-- repo: openbsd
-  srcname: mail/neomutt
-  binname: neomutt
-  visiblename: mail/neomutt
-  version: "20260616"
-  origversion: 20260616v0
-  status: newest
-  summary: tty-based e-mail client, forked from Mutt
-  maintainers:
-    - stu.ports@spacehopper.org
-  categories:
-    - mail
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: neomutt
@@ -1323,18 +1324,6 @@
   visiblename: neomutt
   version: "20220429"
   origversion: 20220429-bp155.1.11
-  status: outdated
-  summary: A command line mail reader (or MUA), a fork of Mutt with added features
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Email/Clients
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20230517"
-  origversion: 20230517-bp156.1.9
   status: outdated
   summary: A command line mail reader (or MUA), a fork of Mutt with added features
   licenses:
@@ -1386,6 +1375,42 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: neomutt
+  binnames:
+    - neomutt
+  visiblename: neomutt
+  version: "20250510"
+  origversion: 20250510+dfsg-2
+  status: outdated
+  maintainers:
+    - mutt@packages.debian.org
+    - antonio@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: neomutt
+  visiblename: neomutt
+  version: "20250510"
+  origversion: 20250510-1pclos2025
+  status: outdated
+  summary: A command line mail reader based on Mutt
+  categories:
+    - Networking/Mail
+- repo: pkgsrc_2026_2
+  srcname: mail/neomutt
+  binname: neomutt
+  visiblename: mail/neomutt
+  version: "20260616"
+  origversion: null
+  status: newest
+  summary: Fork of mutt with integrated community patches
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - mail
 - repo: pkgsrc_2026_3
   srcname: mail/neomutt
   binname: neomutt
@@ -1505,16 +1530,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: starkos
-  subrepo: extra
-  srcname: neomutt
-  visiblename: neomutt
-  version: "20260616"
-  origversion: 20260616-2
-  status: newest
-  summary: A version of mutt with added features
-  maintainers:
-    - starkos@disroot.org
 - repo: termux
   srcname: neomutt
   binname: neomutt
@@ -1651,6 +1666,16 @@
   summary: A version of mutt with added features
   maintainers:
     - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q65964713
+  visiblename: neomutt
+  version: "2026-06-16"
+  origversion: null
+  status: outdated
+  summary: terminal mailclient
+  licenses:
+    - GNU General Public License, version 2.0
+  vulnerable: true
 - repo: chimera
   subrepo: user
   srcname: neomutt
@@ -1820,14 +1845,4 @@
     - paravoid@debian.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: wikidata
-  srcname: Q65964713
-  visiblename: neomutt
-  version: "2026-06-16"
-  origversion: null
-  status: outdated
-  summary: terminal mailclient
-  licenses:
-    - GNU General Public License, version 2.0
   vulnerable: true
