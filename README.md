@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,864 · **Forks**: 357 · **Open issues**: 2,404 · **Contributors**: 368
+- **Stars**: 3,863 · **Forks**: 357 · **Open issues**: 2,404 · **Contributors**: 368
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 3 | 8 | 2 | 4 | 4 |
-| last60d | 2026-09-21 | 0 | 16 | 10 | 6 | 6 | 21 |
-| 90d | 2026-08-22 | 0 | 20 | 12 | 8 | 9 | 25 |
-| last180d | 2026-05-24 | 1 | 80 | 20 | 36 | 36 | 167 |
-| 360d | 2025-11-25 | 5 | 147 | 35 | 65 | 57 | 1094 |
-| last720d | 2024-11-30 | 11 | 237 | 38 | 128 | 92 | 1460 |
+| 30d | 2026-10-22 | 0 | 3 | 7 | 2 | 4 | 4 |
+| last60d | 2026-09-22 | 0 | 16 | 10 | 6 | 6 | 21 |
+| 90d | 2026-08-23 | 0 | 20 | 12 | 8 | 8 | 25 |
+| last180d | 2026-05-25 | 1 | 80 | 20 | 36 | 36 | 167 |
+| 360d | 2025-11-26 | 5 | 147 | 35 | 65 | 57 | 1094 |
+| last720d | 2024-12-01 | 11 | 237 | 38 | 128 | 92 | 1457 |
 
 ## Release assets
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **139** distros on [repology.org](https://repology.org/project/neomutt). **48** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/neomutt). **48** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:02:25Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T06:59:37Z._
