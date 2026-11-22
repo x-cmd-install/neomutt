@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 100 · **Merged PRs**: 1940 · **Open PRs**: 42 · **Closed issues**: 2138 · **Open issues**: 266 · **Commits**: 18789
+- **Releases**: 100 · **Merged PRs**: 1940 · **Open PRs**: 43 · **Closed issues**: 2138 · **Open issues**: 266 · **Commits**: 18789
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 3 | 7 | 2 | 4 | 4 |
-| last60d | 2026-09-22 | 0 | 16 | 10 | 6 | 6 | 21 |
-| 90d | 2026-08-23 | 0 | 20 | 12 | 8 | 8 | 25 |
-| last180d | 2026-05-25 | 1 | 80 | 20 | 36 | 36 | 167 |
-| 360d | 2025-11-26 | 5 | 147 | 35 | 65 | 57 | 1094 |
-| last720d | 2024-12-01 | 11 | 237 | 38 | 128 | 92 | 1457 |
+| 30d | 2026-10-23 | 0 | 3 | 8 | 2 | 4 | 2 |
+| last60d | 2026-09-23 | 0 | 16 | 11 | 6 | 6 | 21 |
+| 90d | 2026-08-24 | 0 | 20 | 13 | 8 | 8 | 25 |
+| last180d | 2026-05-26 | 1 | 80 | 21 | 36 | 36 | 151 |
+| 360d | 2025-11-27 | 5 | 147 | 36 | 65 | 57 | 1081 |
+| last720d | 2024-12-02 | 11 | 235 | 39 | 127 | 92 | 1450 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T06:59:37Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:09:11Z._
