@@ -24,16 +24,6 @@ Total: **216,523** lines of code across **1664** files in the top 5 languages.
 | ModuleDef | 1,066 | 0 | 120 | 1 |
 | Tcl | 1,065 | 650 | 155 | 9 |
 
-## OpenSSF Scorecard
-
-Overall score: **7.6 / 10**
-
-Lowest-scoring checks:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (2/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-
 ## Source
 
 - **Upstream**: <https://github.com/neomutt/neomutt>
@@ -58,12 +48,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 3 | 9 | 2 | 4 | 2 |
-| last60d | 2026-09-24 | 0 | 16 | 12 | 6 | 6 | 21 |
-| 90d | 2026-08-25 | 0 | 20 | 14 | 8 | 8 | 25 |
-| last180d | 2026-05-27 | 1 | 80 | 22 | 36 | 36 | 151 |
-| 360d | 2025-11-28 | 5 | 146 | 37 | 65 | 57 | 1081 |
-| last720d | 2024-12-03 | 11 | 233 | 40 | 127 | 91 | 1446 |
+| 30d | 2026-10-25 | 0 | 3 | 9 | 2 | 4 | 2 |
+| last60d | 2026-09-25 | 0 | 16 | 12 | 6 | 6 | 21 |
+| 90d | 2026-08-26 | 0 | 20 | 14 | 8 | 7 | 25 |
+| last180d | 2026-05-28 | 1 | 80 | 22 | 35 | 36 | 151 |
+| 360d | 2025-11-29 | 5 | 145 | 36 | 65 | 57 | 1081 |
+| last720d | 2024-12-04 | 11 | 233 | 40 | 127 | 91 | 1445 |
 
 ## Release assets
 
@@ -75,7 +65,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **138** distros on [repology.org](https://repology.org/project/neomutt). **48** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/neomutt). **49** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,7 +80,7 @@ Reported by **138** distros on [repology.org](https://repology.org/project/neomu
 | Nix unstable | `20260616` | ✅ latest |
 | Void | `20260616` | ✅ latest |
 | Alpine edge | `20260616` | ✅ latest |
-| openSUSE Tumbleweed | `20260406` | ⚠️ outdated |
+| openSUSE Tumbleweed | `20260616` | ✅ latest |
 
 ## Improve this data
 
@@ -101,4 +91,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:34:10Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T09:55:22Z._
