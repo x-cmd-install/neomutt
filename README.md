@@ -14,12 +14,12 @@ x install neomutt
 
 ## Code insight
 
-Total: **216,523** lines of code across **1664** files in the top 5 languages.
+Total: **216,768** lines of code across **1667** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 197,779 | 71,787 | 36,191 | 1187 |
-| CHeader | 13,680 | 15,371 | 3,683 | 462 |
+| C | 198,026 | 71,845 | 36,223 | 1190 |
+| CHeader | 13,678 | 15,371 | 3,682 | 462 |
 | Sh | 2,033 | 450 | 202 | 5 |
 | ModuleDef | 1,066 | 0 | 120 | 1 |
 | Tcl | 1,065 | 650 | 155 | 9 |
@@ -33,27 +33,27 @@ Total: **216,523** lines of code across **1664** files in the top 5 languages.
 ## Release
 
 - **Latest**: `20260616` (2026-06-16)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-24
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 3,865 · **Forks**: 357 · **Open issues**: 2,404 · **Contributors**: 368
+- **Stars**: 3,865 · **Forks**: 357 · **Open issues**: 2,405 · **Contributors**: 368
 
 ## Totals (cumulative)
 
-- **Releases**: 100 · **Merged PRs**: 1940 · **Open PRs**: 44 · **Closed issues**: 2138 · **Open issues**: 266 · **Commits**: 18789
+- **Releases**: 100 · **Merged PRs**: 1944 · **Open PRs**: 40 · **Closed issues**: 2138 · **Open issues**: 267 · **Commits**: 18795
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 3 | 9 | 2 | 4 | 2 |
-| last60d | 2026-09-25 | 0 | 16 | 12 | 6 | 6 | 21 |
-| 90d | 2026-08-26 | 0 | 20 | 14 | 8 | 7 | 25 |
-| last180d | 2026-05-28 | 1 | 80 | 22 | 35 | 36 | 151 |
-| 360d | 2025-11-29 | 5 | 145 | 36 | 65 | 57 | 1081 |
-| last720d | 2024-12-04 | 11 | 233 | 40 | 127 | 91 | 1445 |
+| 30d | 2026-10-26 | 0 | 5 | 6 | 2 | 4 | 7 |
+| last60d | 2026-09-26 | 0 | 19 | 9 | 6 | 7 | 26 |
+| 90d | 2026-08-27 | 0 | 23 | 11 | 8 | 8 | 30 |
+| last180d | 2026-05-29 | 1 | 83 | 18 | 33 | 37 | 157 |
+| 360d | 2025-11-30 | 5 | 149 | 32 | 65 | 58 | 1087 |
+| last720d | 2024-12-05 | 11 | 236 | 36 | 125 | 92 | 1450 |
 
 ## Release assets
 
@@ -62,25 +62,6 @@ Total: **216,523** lines of code across **1664** files in the top 5 languages.
 | [20260616-CHECKSUM](https://github.com/neomutt/neomutt/releases/download/20260616/20260616-CHECKSUM) | 1.1 KiB | `other` |
 | [20260616.tar.gz.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.tar.gz.sig) | 566 B | `other` |
 | [20260616.zip.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.zip.sig) | 566 B | `other` |
-
-## Distribution status
-
-Reported by **138** distros on [repology.org](https://repology.org/project/neomutt). **49** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `20260616` | ✅ latest |
-| Debian 14 | `20260616` | ✅ latest |
-| Debian 13 | `20250510` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `20260105` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `20231103` | ⚠️ outdated |
-| Arch | `20260616` | ✅ latest |
-| Homebrew | `20260616` | ✅ latest |
-| Fedora rawhide | `20260616` | ✅ latest |
-| Nix unstable | `20260616` | ✅ latest |
-| Void | `20260616` | ✅ latest |
-| Alpine edge | `20260616` | ✅ latest |
-| openSUSE Tumbleweed | `20260616` | ✅ latest |
 
 ## Improve this data
 
@@ -91,4 +72,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:55:22Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:19:37Z._
