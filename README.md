@@ -38,7 +38,7 @@ Total: **216,768** lines of code across **1667** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,865 · **Forks**: 357 · **Open issues**: 2,405 · **Contributors**: 368
+- **Stars**: 3,866 · **Forks**: 357 · **Open issues**: 2,405 · **Contributors**: 368
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **216,768** lines of code across **1667** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 5 | 6 | 2 | 4 | 7 |
-| last60d | 2026-09-26 | 0 | 19 | 9 | 6 | 7 | 26 |
-| 90d | 2026-08-27 | 0 | 23 | 11 | 8 | 8 | 30 |
-| last180d | 2026-05-29 | 1 | 83 | 18 | 33 | 37 | 157 |
-| 360d | 2025-11-30 | 5 | 149 | 32 | 65 | 58 | 1087 |
-| last720d | 2024-12-05 | 11 | 236 | 36 | 125 | 92 | 1450 |
+| 30d | 2026-10-27 | 0 | 5 | 6 | 2 | 4 | 7 |
+| last60d | 2026-09-27 | 0 | 19 | 9 | 6 | 7 | 26 |
+| 90d | 2026-08-28 | 0 | 23 | 11 | 8 | 8 | 30 |
+| last180d | 2026-05-30 | 1 | 81 | 18 | 33 | 37 | 157 |
+| 360d | 2025-12-01 | 5 | 149 | 32 | 65 | 58 | 1087 |
+| last720d | 2024-12-06 | 11 | 234 | 36 | 124 | 91 | 1444 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:19:37Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:04:52Z._
