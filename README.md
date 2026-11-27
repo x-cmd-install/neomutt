@@ -38,7 +38,7 @@ Total: **216,768** lines of code across **1667** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,866 · **Forks**: 357 · **Open issues**: 2,405 · **Contributors**: 368
+- **Stars**: 3,867 · **Forks**: 357 · **Open issues**: 2,405 · **Contributors**: 368
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **216,768** lines of code across **1667** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 5 | 6 | 2 | 4 | 7 |
-| last60d | 2026-09-27 | 0 | 19 | 9 | 6 | 7 | 26 |
-| 90d | 2026-08-28 | 0 | 23 | 11 | 8 | 8 | 30 |
-| last180d | 2026-05-30 | 1 | 81 | 18 | 33 | 37 | 157 |
-| 360d | 2025-12-01 | 5 | 149 | 32 | 65 | 58 | 1087 |
-| last720d | 2024-12-06 | 11 | 234 | 36 | 124 | 91 | 1444 |
+| 30d | 2026-10-28 | 0 | 5 | 6 | 2 | 4 | 7 |
+| last60d | 2026-09-28 | 0 | 19 | 9 | 6 | 7 | 26 |
+| 90d | 2026-08-29 | 0 | 23 | 11 | 8 | 8 | 30 |
+| last180d | 2026-05-31 | 1 | 81 | 18 | 33 | 37 | 157 |
+| 360d | 2025-12-02 | 5 | 149 | 32 | 65 | 58 | 1087 |
+| last720d | 2024-12-07 | 11 | 234 | 36 | 124 | 91 | 1443 |
 
 ## Release assets
 
@@ -62,6 +62,25 @@ Total: **216,768** lines of code across **1667** files in the top 5 languages.
 | [20260616-CHECKSUM](https://github.com/neomutt/neomutt/releases/download/20260616/20260616-CHECKSUM) | 1.1 KiB | `other` |
 | [20260616.tar.gz.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.tar.gz.sig) | 566 B | `other` |
 | [20260616.zip.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.zip.sig) | 566 B | `other` |
+
+## Distribution status
+
+Reported by **137** distros on [repology.org](https://repology.org/project/neomutt). **49** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `20260616` | ✅ latest |
+| Debian 14 | `20260616` | ✅ latest |
+| Debian 13 | `20250510` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `20260105` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `20231103` | ⚠️ outdated |
+| Arch | `20260616` | ✅ latest |
+| Homebrew | `20260616` | ✅ latest |
+| Fedora rawhide | `20260616` | ✅ latest |
+| Nix unstable | `20260616` | ✅ latest |
+| Void | `20260616` | ✅ latest |
+| Alpine edge | `20260616` | ✅ latest |
+| openSUSE Tumbleweed | `20260616` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +91,4 @@ Install metadata for neomutt lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:04:52Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:11:33Z._
