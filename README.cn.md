@@ -38,22 +38,22 @@ x install neomutt
 
 ## 流行度
 
-- **Star**: 3,867 · **Fork**: 357 · **开放 issue**: 2,405 · **贡献者**: 368
+- **Star**: 3,867 · **Fork**: 358 · **开放 issue**: 2,405 · **贡献者**: 368
 
 ## 累计统计
 
-- **发布数**: 100 · **已合并 PR**: 1944 · **开放 PR**: 40 · **已关闭 issue**: 2138 · **开放 issue**: 267 · **提交数**: 18795
+- **发布数**: 100 · **已合并 PR**: 1944 · **开放 PR**: 41 · **已关闭 issue**: 2138 · **开放 issue**: 267 · **提交数**: 18795
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 5 | 6 | 2 | 4 | 7 |
-| last60d | 2026-09-28 | 0 | 19 | 9 | 6 | 7 | 26 |
-| 90d | 2026-08-29 | 0 | 23 | 11 | 8 | 8 | 30 |
-| last180d | 2026-05-31 | 1 | 81 | 18 | 33 | 37 | 157 |
-| 360d | 2025-12-02 | 5 | 149 | 32 | 65 | 58 | 1087 |
-| last720d | 2024-12-07 | 11 | 234 | 36 | 124 | 91 | 1443 |
+| 30d | 2026-10-29 | 0 | 5 | 6 | 2 | 4 | 7 |
+| last60d | 2026-09-29 | 0 | 19 | 10 | 6 | 7 | 26 |
+| 90d | 2026-08-30 | 0 | 23 | 12 | 8 | 8 | 30 |
+| last180d | 2026-06-01 | 1 | 81 | 19 | 32 | 37 | 157 |
+| 360d | 2025-12-03 | 5 | 148 | 33 | 65 | 58 | 1087 |
+| last720d | 2024-12-08 | 11 | 233 | 37 | 124 | 91 | 1443 |
 
 ## Release 资产
 
@@ -62,25 +62,6 @@ x install neomutt
 | [20260616-CHECKSUM](https://github.com/neomutt/neomutt/releases/download/20260616/20260616-CHECKSUM) | 1.1 KiB | `other` |
 | [20260616.tar.gz.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.tar.gz.sig) | 566 B | `other` |
 | [20260616.zip.sig](https://github.com/neomutt/neomutt/releases/download/20260616/20260616.zip.sig) | 566 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/neomutt) 上共有 **137** 个发行版报告此项目。**49** 个 ✅ 已是最新上游版本，**76** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `20260616` | ✅ latest |
-| Debian 14 | `20260616` | ✅ latest |
-| Debian 13 | `20250510` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `20260105` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `20231103` | ⚠️ outdated |
-| Arch | `20260616` | ✅ latest |
-| Homebrew | `20260616` | ✅ latest |
-| Fedora rawhide | `20260616` | ✅ latest |
-| Nix unstable | `20260616` | ✅ latest |
-| Void | `20260616` | ✅ latest |
-| Alpine edge | `20260616` | ✅ latest |
-| openSUSE Tumbleweed | `20260616` | ✅ latest |
 
 ## 改进这些数据
 
@@ -91,4 +72,4 @@ neomutt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T08:11:34Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T07:55:06Z._
